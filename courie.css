@@ -401,6 +401,14 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+position: relative;
+}
+.absolute{
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .container-2{
 width: 500px;
@@ -492,13 +500,13 @@ margin-bottom: 0;
 }
 .form{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 justify-content: center;
 margin-top: 0;
 }
 input[type="text-4"]{
-width: 450px;
+width: 350px;
 height: 50px;
 }
 button[type="subscribe"]{
